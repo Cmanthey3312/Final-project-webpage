@@ -1,0 +1,96 @@
+body {
+    display:block;
+    border-top: 100px solid black;
+    border-bottom: 60px solid black;
+    background-color: grey;
+    background-image: linear-gradient( to bottom, black, grey 100%);
+    height: 1500px;
+}
+.navigation {
+    position: absolute;
+    top: 14px;
+    padding-left: 2px;
+    max-width: 100%;
+    align-content: space-around;
+    
+}
+
+li > .page-link {
+    color: lime;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Avenir', sans-serif;
+    font-size: 1.7em;
+    margin: 0 30px 0;
+    padding: 0;
+}
+.navigation li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+
+#name {
+    text-align: center;
+    text-shadow: 4px 5px black;
+    font-family: 'Avenir', sans-serif;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: bold;
+    display: block;
+    color: lime;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+img.cov-photo {
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    border: 10px solid black;
+    border-radius: 50%
+        
+}
+li a:hover {
+    color: ghostwhite;
+}
+.footer {
+    position: absolute;
+    left: 20px;
+    color: white;
+    font-family: 'Adobe Garamond Pro',serif;
+}
+
+h2{text-align: center;
+    text-shadow: 4px 5px black;
+    font-family: 'Avenir', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bold;
+    display: block;
+    color: lime;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid silver;
+    padding-bottom: 8px
+    
+}
+ .district-9 {
+    margin: 50px 100px 0px 720px;
+    font-family: 'Adobe Garamond Pro', serif;
+    font-size: 1.5em;
+    line-height: 2;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 30em;
+}
+img {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: auto;
+    width: 500px;
+    float:
+}
